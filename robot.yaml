@@ -1,0 +1,5 @@
+tasks:
+  Run News Scraper:
+    shell: python -m src.main
+    condaConfigFile: conda.yaml
+    artifactsDir: output
